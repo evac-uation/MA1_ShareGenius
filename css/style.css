@@ -42,7 +42,14 @@ ul.nav a:hover {
     padding: 25px;
 }
 
-h1 {line-height: 5px;}
+.homepagepink {
+    background-color: rgb(235, 187, 187);
+    text-align: left;
+    padding: 25px;
+}
+
+h1 {line-height: 5px;
+}
 
 
 .container {
@@ -61,3 +68,104 @@ h1 {line-height: 5px;}
     padding-left: 30px;
     text-align: right;
   }
+
+  .text2 {
+    font-size: 20px;
+    padding-left: 30px;
+    text-align: center;
+  }
+
+  .text3 {
+    font-size: 20px;
+    padding-left: 30px;
+    text-align: left;
+  }
+
+.rocaitalic{
+    font-family: "roca", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.rocareg{
+    font-family: "roca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rocabold{
+    font-family: "roca", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.rocalight {
+    font-family: "roca", sans-serif;    
+    font-weight: 300;
+    font-style: normal;
+}
+
+.textanimate{
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: textanimate;
+
+}
+
+@keyframes textanimate {
+    0%   {color:rgb(218, 154, 154);}
+    25%  {color:rgb(145, 108, 108);}
+    50%  {color:rgb(142, 94, 94);}
+    75%  {color:rgb(169, 120, 120);}
+    100% {color:rgb(212, 154, 154);}
+}
+
+.hovercookie {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .img__wrap {
+    position:relative;
+   height:300px;
+   width: 300px;
+   display: inline-block;
+  }
+  
+  .img__description {
+    position: absolute;
+    top: 55px;
+    bottom: 55px;
+    left: 50px;
+    right: 50px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .img__img{
+    opacity:1;
+  }
+
+  .img__wrap:hover .img__img {
+    visibility: visible;
+    opacity: 0.2;
+    transition: opacity .2s, visibility .2s;
+  }
+
+.resourcerecipes{
+    text-align: center; color:rgb(158, 95, 95); background-color: rgb(235, 187, 187); padding-bottom: 25px;
+}
+
+.recipeimg{
+    width:200px;
+    padding: "20px"
+}
+
+
